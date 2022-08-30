@@ -1,5 +1,5 @@
 import random
-def random_number_from_100_to_10():
+def random_number():
     my_list=[]
     even_number=0
     for i in range(100):
@@ -10,4 +10,4 @@ def random_number_from_100_to_10():
         if i%2==0:
             even_number+=1
     print("You have %s even numbers!"%even_number)
-random_number_from_100_to_10()
+random_number()
